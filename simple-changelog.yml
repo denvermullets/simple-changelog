@@ -1,0 +1,12 @@
+name: "Simple Changelog"
+description: "Determine semantic version and update CHANGELOG.md"
+inputs:
+  github_token:
+    description: "GitHub token to authenticate and push changes"
+    required: true
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "tag"
+  color: "blue"
