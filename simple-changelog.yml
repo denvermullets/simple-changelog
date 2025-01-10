@@ -7,6 +7,4 @@ inputs:
 runs:
   using: "docker"
   image: "Dockerfile"
-branding:
-  icon: "tag"
-  color: "blue"
+  entrypoint: ["./simple_changelog.rb"]
